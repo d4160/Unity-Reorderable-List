@@ -1,0 +1,15 @@
+{
+    "name": "ReorderableListExtra",
+    "references": [
+        "GUID:c956f17f16aa645919b704d986429054"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

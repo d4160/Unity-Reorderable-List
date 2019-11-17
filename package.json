@@ -1,0 +1,30 @@
+{
+  "name": "cfoulston.unity-reorderable-list",
+  "displayName": "Unity Reorderable List",
+  "version": "1.0.1",
+  "unity": "2018.1",
+  "description": "An attempt to mimic the ReorderableList within Unity while adding some extended functionality.",
+  "keywords": [
+    "editor",
+    "unity",
+    "inspector",
+    "reorderable list"
+  ],
+  "author": {
+    "name": "cfoulston"
+  },
+  "dependencies": {
+    "garettbass.unity-extensions.inspect-in-line": "0.2.1"
+  },
+  "samples": [
+    {
+      "displayName": "Reorderable List Examples",
+      "description": "Overview and details examples.",
+      "path": "Samples~"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfoulston/Unity-Reorderable-List.git"
+  }
+}

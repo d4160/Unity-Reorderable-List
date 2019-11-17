@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -28,7 +29,7 @@ namespace Malee.Editor {
 			ReorderableList list = GetList(property, attribute as ReorderableAttribute, ARRAY_PROPERTY_NAME);
 
 			if (list != null) {
-
+                label.text += $" ({list.Length})";
 				list.DoList(EditorGUI.IndentedRect(position), label);
 			}
 			else {
@@ -136,3 +137,4 @@ namespace Malee.Editor {
 		}
 	}
 }
+#endif
