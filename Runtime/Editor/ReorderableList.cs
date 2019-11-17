@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -1876,7 +1877,7 @@ namespace Malee.Editor {
 				iconToolbarMinus = EditorGUIUtility.IconContent("Toolbar Minus", "Remove selection from list");
 				iconPagePrev = EditorGUIUtility.IconContent("Animation.PrevKey", "Previous page");
 				iconPageNext = EditorGUIUtility.IconContent("Animation.NextKey", "Next page");
-				
+
 #if UNITY_2018_3_OR_NEWER
 				iconPagePopup = EditorGUIUtility.IconContent("ShurikenPopup", "Select page");
 #else
@@ -2721,4 +2722,4 @@ namespace Malee.Editor {
 		}
 	}
 }
-
+#endif
